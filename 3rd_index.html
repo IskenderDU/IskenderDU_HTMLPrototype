@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for a trip</title>
+</head>
+<header>
+        <nav>
+            <h1 id ="Apply for a trip">Trail club</h1>
+            <p> Student hiking club · Classroom example</p>
+            <p><a href="1st_index.html">Home</a> · <a href="2nd_index.html">Routes</a> · <a href="3rd_index.html">Apply for a trip</a></p>
+        </nav>
+    </header>
+
+    <hr>
+
+    <section>
+        <p><a href="1st_index.html">Home</a> → <a href="2nd_index.html">Routes</a> → Apply for a trip</p>
+        <h2>Trip application</h2>
+        <p>This is a practice form. It does not send or store information.</p>
+
+        <form>
+        <fieldset id="form">
+            <legend>1. Participant</legend>
+            <p><label for="Full-name">Full-name *</label><br>
+            <input type="Name" id="Full-name" name="Full_name"></p>
+
+            <p><label for="Email">Email *</label><br>
+            <input type="email" id="Email" name="Email"></p>
+
+            <p><label for="Student group">Student group</label><br>
+            <input type="studentgroup" id="Student-group" name="Student_group"></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>2. Trip choice</legend>
+            <p><label for="Route">Route *</label><br>
+            <select name="Route menu" id="Route selected">
+                <option value="" selected>Choose a route</option>
+                <option value="">River Walk</option>
+                <option value="">Forest Trail</option>
+                <option value="">Ridge View</option>
+            </select></p>
+
+            <p><label for="Date">Preffered date *</label><br>
+            <input type="date" id="Preffered-date" name="Preffered_date" placeholder="дд.мм.гггг"></p>
+
+            <p><label for="Number for participants">Number for participants (1-4)</label><br>
+            <input type="text" id="Number-for-participants" name="Number_for_participants" value="1" size="4"></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>3. Experience</legend>
+            
+            <div>
+                <p>
+                <label for="Beginner"></label>
+                <input type="radio" id="Beginner" name="Beginner">Beginner<br>
+
+                <label for="I hike regularly"></label>
+                <input type="radio" id="I-hike-regularly" name="I_hike_regularly">I hike regularly
+                </p>
+            </div>
+
+            <div>
+                <p>
+            <label for="Walking shoes"></label>
+            <input type="checkbox" id="Walking-shoes" name="Walking_shoes">Walking shoes <br>
+
+            <label for="Watter bottle"></label>
+            <input type="checkbox" id="Watter-dottle" name="Watter_bottle">Watter bottle <br>
+
+            <label for="Jacket"></label>
+            <input type="checkbox" id="Jacket" name="Jacket">Jacket
+            </p>
+            </div>
+
+            <p><label for="Questions or notes">Questions or notes</label><br>
+            <textarea name="Questions-or-notes" id="Questions_or_notes" rows="7" cols="40"></textarea></p>
+        </fieldset>
+
+        <p><label for="Agreement"></label>
+        <input type="checkbox" id="Agreement">I have read the route description</p>
+
+        <button type="submit" disabled>Send application</button>
+        <button type="reset" >Reset form</button>
+        </form>
+
+        <p><small>* Required fields. Sending remains disabled until a handler is connected.</small></p>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>Trail Club · Fictional trips and prices for HTML practice</p>
+        <p><a href="#Apply for a trip">Back to top ↑</a></p>
+    </footer>
+<body>
+    
+</body>
+</html>

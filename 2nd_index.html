@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routes</title>
+</head>
+ <header>
+        <nav>
+            <h1 id ="Routes">Trail club</h1>
+            <p> Student hiking club · Classroom example</p>
+            <p><a href="1st_index.html">Home</a> · <a href="2nd_index.html">Routes</a> · <a href="3rd_index.html">Apply for a trip</a></p>
+        </nav>
+    </header>
+    <hr>
+<body>
+    <section>
+   <p><a href="1st_index.html">Home</a> → Routes</p>
+   <h1>Choose Your Route</h1>
+   <p><a href="#Comparison">Comparison</a> · <a href="#River walk">River Walk</a> · <a href="#Forest Trail">Forest Trail</a> · <a href="#Ridge view">Ridge View</a></p>
+   <h2 id="Comparison">Route Comparison</h2>
+   <table>
+    <thead>
+        <caption>Sample routes — estimated classroom data</caption>
+
+      <tr>
+        <th rowspan="2">Route</th>
+        <th colspan="2" class="trip-details">Trip details</th>
+        <th rowspan="2">Sample price</th>
+      </tr>
+
+      <tr>
+        <th>Distance</th>
+        <th>Duration</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a href="#River walk">River Walk</a></td>
+        <td>4 km</td>
+        <td>2 hours</td>
+        <td>300 KGS</td>
+      </tr>
+
+      <tr>
+        <td><a href="#Forest Trail">Forest Trail</a></td>
+        <td>7 km</td>
+        <td>4 hours</td>
+        <td>500 KGS</td>
+      </tr>
+
+      <tr>
+        <td><a href="#Ridge view">Ridge View</a></td>
+        <td>10 km</td>
+        <td>6 hours</td>
+        <td>700 KGS</td>
+      </tr>
+    </tbody>
+  </table>
+  <figcaption>
+    <caption>Prices are fictional and used only for HTML practice.</caption>
+  </figcaption>
+   </section>
+
+   <section>
+    <h2 id="River walk">River Walk</h2>
+    Meeting point<br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStudent entrance
+    <br>
+    Group size<br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp20 people
+    <p><label for="River walk reserving">Reserved places:</label>
+    <progress id="River walk reserving" value="8" max="20" color="green">40%</progress> 8 / 20</p>
+    <details>
+        <summary>What should I bring?</summary>
+    </details>
+    <p><a href="3rd_index.html">Apply for this trip</a></p>
+   </section>
+
+   <section>
+    <h2 id="Forest Trail">Forest Trail</h2>
+    <p>A longer walk with shaded sections.</p>
+    <p><label for="Forest Trail reserving">Reserved places:</label>
+    <progress id="Forest Trail reserving" value="12" max="16" color="green">75%</progress> 12 / 16</p>
+    <details>
+        <summary>Peparation checklist</summary>
+    </details>
+     <p><a href="3rd_index.html">Apply for this trip</a></p>
+   </section>
+
+   <section>
+    <h2 id="Ridge view">Ridge View</h2>
+    <p>The longest route in this fictional club catalog.</p>
+    <p><label for="Ridge view reserving">Reserved places:</label>
+    <progress id="Ridge view reserving" value="6" max="12" color="green">50%</progress> 6 / 12</p>
+    <details>
+        <summary>How is this route different?</summary>
+    </details>
+     <p><a href="3rd_index.html">Apply for this trip</a></p>
+   </section>
+   <hr>
+   <footer>
+     <p>Trail Club · Fictional trips and prices for HTML practice</p>
+        <p><a href="#Routes">Back to top ↑</a></p>
+   </footer>
+</body>
+
+</html>
